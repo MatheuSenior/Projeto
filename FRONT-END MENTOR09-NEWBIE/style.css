@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor01: #2BB3B1;
+    --cor02: #4ABEBD;
+    --cor03: #BFDF32;
+    --cor04: #E6EFF6;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cor04);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1 {
+    background-color: white;
+    max-width: 650px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+main h1 {
+    color: var(--cor01);
+    margin-bottom: 25px;
+}
+
+.section1 p {
+    margin: 10px 0px 20px 0px;
+    line-height: 25px;
+    max-width: 550px;
+    color: rgb(177, 177, 177);
+}
+
+.container {
+    display: flex;
+}
+
+.destaque {
+    color: var(--cor03);
+    font-weight: bold;
+}
+
+.section2{
+    background-color: var(--cor01);
+    padding: 30px;
+    color: white;
+}
+
+.section2 h2 {
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+
+.preço {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.numero {
+    font-size: 25px;
+}
+
+#month {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.404);
+}
+
+.botao {
+    background-color: var(--cor03);
+    padding: 12px;
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section3 {
+    background-color: var(--cor02);
+    padding: 30px;
+    color: white;
+    padding-right: 110px;
+}
+
+.section3 h2{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.section3 ul {
+    list-style-type: none;
+    line-height: 20px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 17px;
+    box-shadow: 10px 0px 8px rgba(0, 0, 0, 0.329);
+}
+
+header a {
+    margin-left: 40px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+main {
+    min-width: 320px;
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 180px;
+    margin-bottom: 60px;
+}
+
+main  p {
+    max-width: 320px;
+}
+
+main img {
+    width: 100%;
+    max-width: 670px;
+    width: 100%;
+}
+
+.aside1 {
+    background-image: linear-gradient(to top, #1d0a0a, #5a271f);
+    height: 1640px;
+    text-align: center;
+}
+
+.aside1 > h1 {
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 50px;
+}
+
+.aside1 > h2 {
+    color: white;
+    font-size: 62px;
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+    line-height: 70px;
+}
+
+.aside1 > p {
+    color: white;
+    max-width: 700px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.aside1 > img {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    width: 650px;
+    justify-content: flex-start;
+}
+
+.bebidas > img {
+    width: 600px;
+}
+
+.bebidas {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.aside2 {
+    background-color: #151A1A;
+    height: 1150px;
+    color: white;
+    text-align: center;
+}
+
+.aside2 > h2 {
+    padding-top: 90px;
+    font-size: 55px;
+    padding-bottom: 27px;
+}
+
+.aside2 > p {
+    font-size: 24px;
+    max-width: 790px;
+    margin: auto;
+    line-height: 36px;
+}
+
+.aside2 > img {
+    width: 100%;
+    max-width: 1050px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer > a {
+    margin-left: 30px;
+}
+
+.mensagem1 {
+    display: flex;
+    margin-top: -1050px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.mensagem2 {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 600px;
+    margin-right: auto;
+    color: white;
+    font-size: 25px;
+    padding-top: 250px;
+    margin-left: 90px;
+    line-height: 35px;
+}
+
+.botao {
+    background-color: white;
+    width: 140px;
+    margin: auto;
+    padding: 17px;
+    color: black;
+    margin-top: 40px;
+    border-radius: 35px;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.imagem {
+    display: flex;
+    margin-top: -350px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.lupa {
+    margin-left: 50px;
+    margin-right: -20px;
+}
+
+.titulo {
+    margin-right: auto;
+    color: #DE7A63;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.letraG {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.welcome {
+    color: #dd4e2d;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,2 +1,2 @@
 # Projetos
- Meus projetos em HTML5 e CSS3
+ Meus projetos de HTML5 e CSS3

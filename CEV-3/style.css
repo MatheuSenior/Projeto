@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('./fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor1: #002A40;
+    --cor2: #00547F;
+    --cor3: #006EA6;
+    --cor4: #007FBF;
+    --cor5: #0087CC;
+
+    --fonte-destaque: "Bebas Neue", sans-serif;
+    --fonte-android: 'Android', sans-serif;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor1));
+
+    text-align: center;
+    padding: 30px;
+}
+
+header > h1 {
+    margin-bottom: 20px;
+    font-family: var(--fonte-destaque);
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+header > p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 18px;
+}
+
+nav {
+    background-color: var(--cor1);
+    padding-bottom: 10px;
+}
+
+nav > a {
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    background-color: var(--cor5);
+    color: var(--cor1);
+}
+
+main {
+    margin: auto;
+
+    max-width: 900px;
+    margin: 0px 20px;
+}
+
+article > h1 {
+    font-family: var(--fonte-android);
+
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+    color: var(--cor2);
+}
+
+article > h2 {
+    background-image: linear-gradient(to right, var(--cor4), white);
+    font-family: var(--fonte-android);
+    color: var(--cor1);
+
+    padding-left: 5px;
+    margin: 20px 0px;
+}
+
+article  p {
+    text-indent: 30px;
+    line-height: 20px;
+}
+
+.destaque {
+    font-size: 18px;
+    color: var(--cor1);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.link {
+    background-color: var(--cor4);
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.externo::after {
+    content:'\00A0\1F517';
+}
+
+img {
+    width: 100%;
+}
+
+.imagem {
+    max-width: 400px;
+    margin: auto;
+}
+

@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fundo: #00001A;
+    --botão: #F15D51;
+    --letra: #DC9E4D;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 485px;
+
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+header ul {
+    font-size: 13px;
+}
+
+header a {
+    color: black;
+}
+
+header img {
+    max-width: 45px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    max-width: 240px;
+    background-color: var(--fundo);
+    padding: 22px;
+}
+
+aside > h1 {
+    color: var(--letra);
+    font-size: 35px;
+    padding-top: 5px;
+}
+
+aside > h2 {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+aside > p {
+    color: rgba(255, 255, 255, 0.575);
+    margin-bottom: 22px;
+    font-size: 13px;
+}
+
+.aside-2 {
+    display: flex;
+
+    margin-top: 30px;
+}
+
+.image {
+    max-width: 75px;
+    margin-bottom: 30px;
+}
+
+#alinhamento {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+    margin-right: 26px;
+}
+
+#alinhamento h1 {
+    color: rgb(190, 188, 188);
+}
+
+#alinhamento h2 {
+    font-size: 14px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#alinhamento p {
+    font-size: 12px;
+    max-width: 170px;
+    color: gray;
+    line-height: 16px;
+}
+
+#lado-1-1 {
+    max-width: 250px;
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: 21px;
+}
+
+#lado-1-2 {
+    max-width: 260px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 19px;
+}
+
+.lados {
+    display: flex;
+}
+
+#botão {
+    color: white;
+    background-color: var(--botão);
+    padding: 10px;
+    max-width: 115px;
+    margin-top: 19px;
+    border-radius: 1px;
+    text-align: center;
+}
+
+#main-img {
+    max-width: 550px;
+}
+
+#header-img {
+    margin-right: auto;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    gap: 22px;
+}
+
+hr {
+    color: gray;
+}

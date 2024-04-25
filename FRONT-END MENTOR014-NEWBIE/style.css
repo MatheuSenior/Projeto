@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fundo: #36384D;
+    --letra: #23273F;
+    --botão: #232742;
+}
+
+body {
+    background-color: var(--fundo);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    padding-left: 45px;
+    border-radius: 30px;
+}
+
+main h1 {
+    color: var(--letra);
+    padding-bottom: 18px;
+    margin-top: 70px;
+    font-size: 52px;
+}
+
+main p {
+    max-width: 400px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.lista {
+    display: flex;
+    gap: 12px;
+
+    line-height: 30px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container-2 > img {
+    max-width: 400px;
+}
+
+#email-address {
+    font-size: 13px;
+    color: var(--botão);
+}
+
+.email {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    border: 2px solid rgb(151, 151, 151);
+    color: rgb(151, 151, 151);;
+    border-radius: 10px;
+    max-width: 340px;
+}
+
+#botao-email {
+    display: flex;
+    justify-content: center;
+    background-color: var(--botão);
+    max-width: 340px;
+    margin-top: 20px;
+    padding: 18px;
+    border-radius: 8px;
+}

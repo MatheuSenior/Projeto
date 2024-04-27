@@ -1,0 +1,319 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background: #3EBFFF;
+    --letra: #132e29;
+    --footer: #90D4C5;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+    background-color: var(--background);
+    padding: 30px;
+}
+
+#header-alinhamento {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    margin-left: auto;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: var(--background);
+    text-align: center;
+}
+
+main h1 {
+    color: white;
+    font-size: 45px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+#main-img {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+aside {
+   max-width: 1000px;
+   background-color: white;
+}
+
+aside img {
+    max-width: 500px;
+}
+
+#contact {
+    background-color: white;
+    padding: 15px 23px;
+    border-radius: 30px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+
+    list-style-type: none;
+    font-size: 13px;
+    margin-left: 431px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lado-1 {
+    display: flex;
+    margin-bottom: -4px;
+    background-color: white;
+}
+
+.lado-2 {
+    display: flex;
+    margin-bottom: -4px;
+    background-color: white;
+}
+
+.lado-1-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.lado-1-1 h1 {
+    font-size: 37px;
+    max-width: 300px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+
+.lado-1-1 p {
+    font-size: 14px;
+    max-width: 350px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.learn-more {
+    margin-right: 244px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a {
+    color: black;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 2px;
+}
+
+.foto-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    row-gap: 20px;
+
+    background-image: url('imagens/image-graphic-design.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+
+.foto-1 p {
+    margin-bottom: 70px;
+    font-size: 13px;
+    max-width: 280px;
+}
+
+.foto-2 p {
+    margin-bottom: 70px;
+    font-size: 13px;
+    max-width: 270px;
+    text-align: center;
+}
+
+.foto {
+    color: var(--letra);
+    line-height: 20px;
+}
+
+
+.foto-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    row-gap: 20px;
+
+    background-image: url('imagens/image-photography.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 500px;
+    height: 500px;
+}
+
+.fotos-container {
+    display: flex;
+}
+
+#aside-client {
+    padding: 0px 35px;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 130px;
+    color: gray;
+    margin-bottom: 60px;
+}
+
+#emily {
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+#emily p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#thomas {
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+#thomas p {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 280px;
+}
+
+#jennie {
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+#jennie p {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 280px;
+}
+
+.clients {
+    text-align: center;
+    max-width: 300px;
+}
+
+.nome {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.profissao p {
+    color: rgba(0, 0, 0, 0.418);
+}
+
+.client-img {
+    display: flex;
+
+    border-radius: 50%;
+    max-width: 53px;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+.client-container {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 100px;
+}
+
+.images-container {
+    display: flex;
+}
+
+.images-container img {
+    max-width: 250px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--footer);
+    color: var(--letra);
+}
+
+footer h1 {
+    margin-top: 45px;
+    font-size: 20px;
+    color: var(--letra);
+}
+
+footer ul {
+    padding: 30px 385px;
+    margin: auto;
+}
+
+ul img {
+    max-width: 40px;
+}
